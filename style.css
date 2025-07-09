@@ -33,3 +33,17 @@ main {
   margin: 3rem auto;
 
 }
+
+section {
+  background-image: linear-gradient(90deg, #9572ec 0%, #43e7ad 50%, #e2d45c 100%);
+  border-radius: 0.625rem;
+  padding-top: 4px;
+}
+
+section > div {
+  padding: 2rem;
+  padding-top: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #2a2634;
+
+}
