@@ -59,7 +59,7 @@ section p {
 
   main section {
     opacity: 0;
-    transform: translateY(5rem);
+    transform: translateY(2rem);
 
     animation: appear;
     animation-duration: 700ms;
@@ -109,5 +109,20 @@ section p {
     cursor: pointer;
     transform: translateY(-2px);
     box-shadow: 0 5px 1rem rgba(255, 248, 107, 0.1);
+  }
+
+  button:disabled {
+    transform: none;
+    transform: initial;
+    box-shadow: initial;
+    opacity: 0.5;
+    cursor: not-allowed;
+    color: black;
+
+  }
+
+  .loading {
+
+    animation: pulse 1s infinite;
   }
 
